@@ -8,6 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import "./index.css";
+import Landing from "./Pages/LandingPage/Landing";
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home/>
+        element: <Landing/>
       }
     ]
   },

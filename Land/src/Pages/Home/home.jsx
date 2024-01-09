@@ -3,17 +3,17 @@ import { Link } from "react-router-dom";
 const home = () => {
     return (
         <div className="bg-[#FFF] ">
-            <div className=" md:h-screen relative my-auto">
-                <img src="https://i.ibb.co/9njYGKz/bg.jpg" className="absolute md:right-0 w-full md:w-2/3 md:z-10 " />
+            <div className="md:h-screen relative md:mt-10 px-5 md:overflow-hidden"> 
+                <img src="https://i.ibb.co/LQcf3xK/23254646-4557.jpg" className="absolute  md:right-0 w-full md:w-2/3 md:z-10 " />
 
-                <div className="md:z-20 absolute top-7 md:max-w-sm flex flex-col w-full mt-52 md:mt-0">
-                    <p className="md:text-5xl text-3xl uppercase font-bold text-center ">Download <br /> Nur-e-Quran</p>
+                <div className="md:z-20 absolute md:max-w-sm flex flex-col w-full mt-52 md:mt-0">
+                    <p className="md:text-4xl text-3xl uppercase font-bold text-center ">Download <br /> Talim Sonchoy</p>
                     <div className="bg-[#E64783] p-5 rounded-xl mt-7 w-fit mx-auto">
-                        <img src="https://i.ibb.co/PzKvD5Q/qr.png" className="w-40 " />
+                        <img src="https://i.ibb.co/crtDS0b/Talim-Shochoy.png" className="w-40 " />
                     </div>
-                    <p className="text-center mt-7">Download the Nur-e-Quran app to explore <br /> Nobel Quran and watch prayer time.</p>
+                    <p className="text-center mt-7">Download the Talim Sonchoy app to explore <br /> Nobel Quran and watch prayer time.</p>
 
-                    <div className="flex gap-5 mt-5 md:mx-auto mx-5 items-center justify-center">
+                    <div className="flex gap-5 md:mx-auto mx-5 items-center justify-center">
                         <div className="md:flex items-center hidden">
                             <img src="https://i.ibb.co/GJghQ5C/bg-logo.png" className="w-12" />
                             <div >

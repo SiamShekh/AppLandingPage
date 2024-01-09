@@ -2,6 +2,7 @@
   "name": "a",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://siiiiam.pw/",
   "type": "module",
   "scripts": {
     "dev": "vite",
